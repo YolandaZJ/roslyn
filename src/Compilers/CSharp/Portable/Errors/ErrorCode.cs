@@ -1825,7 +1825,8 @@ namespace Microsoft.CodeAnalysis.CSharp
         ERR_PartialMethodRefReturnDifference = 8818,
         WRN_NullabilityMismatchInReturnTypeOnPartial = 8819,
 
-        // Codes 8820, 8821 used by features/static-lambdas
+        ERR_StaticAnonymousFunctionCannotCaptureVariable = 8820,
+        ERR_StaticAnonymousFunctionCannotCaptureThis = 8821,
 
         ERR_ExpressionTreeContainsWithExpression = 8849,
         ERR_BadRecordDeclaration = 8850,
